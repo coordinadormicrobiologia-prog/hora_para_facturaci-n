@@ -145,7 +145,7 @@ plot_hours_trend <- function(data) {
     arrange(date)
   
   ggplot(summary_data, aes(x = date, y = total_hours)) +
-    geom_line(color = "darkblue", size = 1) +
+    geom_line(color = "darkblue", linewidth = 1) +
     geom_point(color = "darkblue", size = 2) +
     labs(title = "Tendencia de Horas Trabajadas",
          x = "Fecha",
