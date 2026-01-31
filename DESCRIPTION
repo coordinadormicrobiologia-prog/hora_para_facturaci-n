@@ -1,0 +1,20 @@
+Package: HoraParaFacturacion
+Type: Package
+Title: Sistema de Gestión de Horas para Facturación
+Version: 1.0.0
+Author: coordinadormicrobiologia-prog
+Maintainer: <coordinadormicrobiologia@sanbritanico.com.ar>
+Description: Aplicación Shiny para gestionar horas de trabajo y facturación.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0)
+Imports:
+    shiny (>= 1.7.0),
+    DT (>= 0.20),
+    ggplot2 (>= 3.3.0),
+    dplyr (>= 1.0.0),
+    lubridate (>= 1.8.0),
+    writexl (>= 1.4.0),
+    scales (>= 1.2.0)
